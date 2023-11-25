@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cola777jz-Docsify-Template</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Cola777jz-Docsify-Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="static/css/ext.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="static/icon/icon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="static/icon/icon.svg">
+  <link rel="icon" type="image/png" sizes="16x16" href="static/icon/icon.svg">
+  <link rel="manifest" href="static/icon/icon.svg">
+</head>
+<body>
+  <div id="app">Welcome to Cola777jz-Docsify-Template </div>
+  <script>
+    window.$docsify = {
+      name: 'Cola777jz  <span class="mg-badge">V1.0.0</span>',
+      repo: 'https://gitee.com/cola777jz/cola777jz-docsify-template',
+      themeColor: '#ed5a65',
+      loadSidebar: true,
+      loadNavbar: true,
+      coverpage: true,
+      autoHeader: false,
+      routerMode: 'hash',
+      subMaxLevel: 5,
+      sidebarDisplayLevel: 5,
+      search: 'auto',
+      vueComponents: {},
+      count: {
+        countable: true,
+        position: 'bottom',
+        fontsize: '0.9em',
+        color: 'rgb(90,90,90)',
+        language: 'chinese',
+      },
+      copyCode: {
+        buttonText: '点击复制',
+        errorText: '错误',
+        successText: '复制成功'
+      },
+      footer: {
+        copy: '<span>MIT Licensed &copy; 2023</span>',
+        auth: 'Power by Mr.Cola',
+        pre: '',
+        style: 'text-align: center;',
+        class: 'className'
+      },
+      timeUpdater: {
+        text: "<div align='right' width='100%' style='color:gray;font-size:16px;margin-top:10px;'>最后更新时间: {docsify-updated}</div>",
+        formatUpdated: "{YYYY}-{MM}-{DD} {HH}:{mm}",
+      },
+      'flexible-alerts': {
+        style: 'callout'
+      },
+      progress: {
+        position: "top",
+        color: "var(--theme-color,#ed5a65)",
+        height: "3px",
+      },
+      tabs: {
+        persist: true,      // default
+        sync: true,      // default
+        theme: 'classic', // default
+        tabComments: true,      // default
+        tabHeadings: true       // default
+      },
+      docsifyBackTop: {
+        size: 32,           	// 数值，组件大小，默认值32。
+        bottom: 15,         	// 数值，组件底部偏移距离，默认值15。
+        right: 15,          	// 数值，组件右侧偏移距离，默认值15。
+        logo: 'top',				// logo:字符串或svg矢量图代码，默认为svg代码图标。
+        bgColor: '#ed5a65'    	// 背景颜色，#fff、pink等，logo为svg图标时，不填。
+      },
+      remoteMarkdown: {
+        tag: 'rmd',
+      },
+      valine: {
+        appId: "29FQrjrwNdAAiTQ16muii1Vt-gzGzoHsz",
+        appKey: "mdHY82Y9fcLtDjxiPYyJ0qDj",
+        // 设置Bilibili表情包地址
+        emojiCDN: '//i0.hdslb.com/bfs/emote/',
+        meta: ['nick', 'mail'],
+        // 表情title和图片映射
+        emojiMaps: {
+          "tv_doge": "6ea59c827c414b4a2955fe79e0f6fd3dcd515e24.png",
+          "tv_亲亲": "a8111ad55953ef5e3be3327ef94eb4a39d535d06.png",
+          "tv_偷笑": "bb690d4107620f1c15cff29509db529a73aee261.png",
+          "tv_再见": "180129b8ea851044ce71caf55cc8ce44bd4a4fc8.png",
+          "tv_冷漠": "b9cbc755c2b3ee43be07ca13de84e5b699a3f101.png",
+          "tv_发怒": "34ba3cd204d5b05fec70ce08fa9fa0dd612409ff.png",
+          "tv_发财": "34db290afd2963723c6eb3c4560667db7253a21a.png",
+          "tv_可爱": "9e55fd9b500ac4b96613539f1ce2f9499e314ed9.png",
+          "tv_吐血": "09dd16a7aa59b77baa1155d47484409624470c77.png",
+          "tv_呆": "fe1179ebaa191569b0d31cecafe7a2cd1c951c9d.png",
+          "tv_呕吐": "9f996894a39e282ccf5e66856af49483f81870f3.png",
+          "tv_困": "241ee304e44c0af029adceb294399391e4737ef2.png",
+          "tv_坏笑": "1f0b87f731a671079842116e0991c91c2c88645a.png",
+          "tv_大佬": "093c1e2c490161aca397afc45573c877cdead616.png",
+          "tv_大哭": "23269aeb35f99daee28dda129676f6e9ea87934f.png",
+          "tv_委屈": "d04dba7b5465779e9755d2ab6f0a897b9b33bb77.png",
+          "tv_害羞": "a37683fb5642fa3ddfc7f4e5525fd13e42a2bdb1.png",
+          "tv_尴尬": "7cfa62dafc59798a3d3fb262d421eeeff166cfa4.png",
+          "tv_微笑": "70dc5c7b56f93eb61bddba11e28fb1d18fddcd4c.png",
+          "tv_思考": "90cf159733e558137ed20aa04d09964436f618a1.png",
+          "tv_惊吓": "0d15c7e2ee58e935adc6a7193ee042388adc22af.png",
+          // ... 更多表情
+        }
+      },
+      markdown: {
+        renderer: {
+          code: function (code, lang) {
+            if (lang === 'drawio') {
+              if (window.drawioConverter) {
+                console.log('drawio 转化中')
+                return window.drawioConverter(code)
+              } else {
+                return `<div class='drawio-code'>${code}</div>`
+              }
+            } else if (lang === 'pdf') {
+              var pdf_renderer = function (code, lang, verify) {
+                function unique_id_generator() {
+                  function rand_gen() {
+                    return Math.floor((Math.random() + 1) * 65536).toString(16).substring(1);
+                  }
+
+                  return rand_gen() + rand_gen() + '-' + rand_gen() + '-' + rand_gen() + '-' + rand_gen() + '-' + rand_gen() + rand_gen() + rand_gen();
+                }
+
+                if (lang && !lang.localeCompare('pdf', 'en', { sensitivity: 'base' })) {
+                  if (verify) {
+                    return true;
+                  } else {
+                    var divId = "markdown_code_pdf_container_" + unique_id_generator().toString();
+                    var container_list = new Array();
+                    if (localStorage.getItem('pdf_container_list')) {
+                      container_list = JSON.parse(localStorage.getItem('pdf_container_list'));
+                    }
+                    container_list.push({ "pdf_location": code, "div_id": divId });
+                    localStorage.setItem('pdf_container_list', JSON.stringify(container_list));
+                    return (
+                      '<div style="margin-top:' + PDF_MARGIN_TOP + '; margin-bottom:' + PDF_MARGIN_BOTTOM + ';" id="' + divId + '">'
+                      + '<a href="' + code + '"> Link </a> to ' + code +
+                      '</div>'
+                    );
+                  }
+                }
+                return false;
+              }
+              if (pdf_renderer(code, lang, true)) {
+                return pdf_renderer(code, lang, false);
+              }
+            } else {
+              return this.origin.code.apply(this, arguments);
+            }
+          }
+        }
+      },
+/*      contributors: {
+        repo: 'https://gitee.com/cola777jz',
+        ignores: [],
+        style: {
+          color: '#ffffff',
+          bgColor: '#404040'
+        },
+        image: {
+          size: 30,
+          isRound: true,
+          margin: '0.5em'
+        },
+        load: {
+          isOpen: true,
+          color: "#89109b"
+        }
+      }*/
+    }
+  </script>
+
+  <script src="//gcore.jsdelivr.net/npm/vue@2/dist/vue.min.js"></script>
+  <!-- Docsify v4 -->
+  <script src="//gcore.jsdelivr.net/npm/docsify@4.13.0/lib/docsify.js"></script>
+  <!-- 搜索 -->
+  <script src="//gcore.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <!-- 图片放大缩小支持 -->
+  <script src="//gcore.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <!-- 代码复制 -->
+  <script src="//gcore.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <!-- 字数插件 -->
+  <script src="https://gcore.jsdelivr.net/npm/docsify-count@latest/dist/countable.min.js"></script>
+  <!-- 页脚信息 -->
+  <script src="//gcore.jsdelivr.net/npm/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
+  <!-- 美化进度条 -->
+  <script src="https://gcore.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>
+  <!-- 最近更新时间 -->
+  <script src="https://gcore.jsdelivr.net/npm/docsify-updated/src/time-updater.min.js"></script>
+  <!-- docsify-backTop -->
+  <script src="https://gcore.jsdelivr.net/gh/Sumsung524/docsify-backTop/dist/docsify-backTop.min.js"></script>
+  <!-- flexible alerts -->
+  <script src="https://gcore.jsdelivr.net/npm/docsify-plugin-flexible-alerts"></script>
+  <!-- 侧边栏扩展与折叠 -->
+  <script src="https://gcore.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  <link rel="stylesheet" href="//gcore.jsdelivr.net/npm/docsify-accordion/src/style.css">
+  <script src="//gcore.jsdelivr.net/npm/docsify-accordion/src/index.js"></script>
+  <!-- docsify-tabs (latest v1.x.x) -->
+  <script src="https://gcore.jsdelivr.net/npm/docsify-tabs@1"></script>
+  <!-- html preview demo-->
+  <link rel="stylesheet" href="//gcore.jsdelivr.net/npm/docsify-demo@latest/dist/index.min.css" />
+  <script src="//gcore.jsdelivr.net/npm/docsify-demo@latest/dist/index.min.js"></script>
+  <!-- remote-markdown -->
+  <script src="//gcore.jsdelivr.net/npm/docsify-remote-markdown/dist/docsify-remote-markdown.min.js"></script>
+  <!-- docsify-drawio -->
+  <script src="https://gcore.jsdelivr.net/npm/docsify-drawio/viewer.min.js"></script>
+  <script src='https://gcore.jsdelivr.net/npm/docsify-drawio/drawio.js'></script>
+  <!-- docsify-pangu 加空格-->
+  <script src="//gcore.jsdelivr.net/npm/docsify-pangu/lib/pangu.min.js"></script>
+  <!-- docsify-kroki 支持全热门图形化语言-->
+  <script src="//gcore.jsdelivr.net/npm/docsify-kroki"></script>
+  <!-- docsify ads -->
+  <script src="//gcore.jsdelivr.net/npm/docsify-ads@1.0.2/dist/docsify-ads.min.js"></script>
+<!--  &lt;!&ndash; docsify-contributors &ndash;&gt;
+  <script src="//gcore.jsdelivr.net/npm/docsify-contributors@latest/dist/index.min.js"></script>-->
+  <!-- docsify pdf embed -->
+  <!-- valine -->
+  <script src='//gcore.jsdelivr.net/npm/valine/dist/Valine.min.js'></script>
+  <script src="https://gcore.jsdelivr.net/npm/docsify-mango-valine@1.1.1/dist/docsify-mango-valine.min.js"></script>
+  <!-- 代码高亮 -->
+  <script src="//gcore.jsdelivr.net/npm/pdfobject@2.2.8/pdfobject.min.js"></script>
+  <script src="//gcore.jsdelivr.net/npm/docsify-pdf-embed-plugin/src/docsify-pdf-embed.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-c.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-cpp.min.js"></script>
+</body>
+
+</html>
